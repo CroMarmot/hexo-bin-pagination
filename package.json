@@ -1,6 +1,6 @@
 {
   "name": "hexo-bin-pagination",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Binary Pagination utilities for Hexo generator plugins.",
   "main": "lib/pagination",
   "scripts": {

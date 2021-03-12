@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cromarmot/hexo-bin-pagination.svg?branch=master)](https://travis-ci.org/cromarmot/hexo-bin-pagination)
 [![NPM version](https://badge.fury.io/js/hexo-bin-pagination.svg)](https://www.npmjs.com/package/hexo-bin-pagination)
-[![Coverage Status](https://img.shields.io/coveralls/cromarmot/hexo-bin-pagination.svg)](https://coveralls.io/r/cromarmot/hexo-bin-pagination?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/CroMarmot/hexo-bin-pagination.svg)](https://coveralls.io/r/CroMarmot/hexo-bin-pagination?branch=master)
 
 Binary Pagination utilities for [Hexo] generator plugins.
 
