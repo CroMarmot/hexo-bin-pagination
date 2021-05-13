@@ -17,7 +17,7 @@ $ npm install hexo-bin-pagination --save
 ```
 ## ref
 
-Inspired by [atcoder.jp](atcoder.jp) and [pornhub.com](pornhub.com) 's pagination.
+Inspired by [atcoder.jp](https://atcoder.jp) and [pornhub.com](https://pornhub.com) 's pagination.
 
 ### atcoder.jp
 
