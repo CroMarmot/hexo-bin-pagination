@@ -1,6 +1,6 @@
 {
   "name": "hexo-bin-pagination",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Binary Pagination utilities for Hexo generator plugins.",
   "main": "lib/pagination",
   "scripts": {
@@ -27,13 +27,12 @@
     "chai": "^4.1.2",
     "eslint": "^7.1.0",
     "eslint-config-hexo": "^4.1.0",
-    "hexo": "^5.4.0",
-    "mocha": "^8.1.1",
+    "hexo": "^8.1.1",
+    "mocha": "^11.7.5",
     "nyc": "^15.0.0"
   },
   "engines": {
-    "node": ">=8.6.0",
-    "hexo": ">=3.9.0"
+    "node": ">=8.6.0"
   },
   "dependencies": {
     "@cromarmot/pagination": "0.0.2",
