@@ -12,9 +12,10 @@ This plugin will replace the default `helper.paginator`.
 
 ## Installation
 
-``` bash
+```bash
 $ npm install hexo-bin-pagination --save
 ```
+
 ## ref
 
 Inspired by [atcoder.jp](https://atcoder.jp) and [pornhub.com](https://pornhub.com) 's pagination.

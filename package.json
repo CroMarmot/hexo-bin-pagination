@@ -1,12 +1,14 @@
 {
   "name": "hexo-bin-pagination",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Binary Pagination utilities for Hexo generator plugins.",
   "main": "lib/pagination",
+  "type": "module",
   "scripts": {
-    "eslint": "eslint .",
     "test": "mocha test/index.js",
-    "test-cov": "nyc npm run test"
+    "test-cov": "nyc npm run test",
+    "lint": "eslint . && prettier --check .",
+    "format": "eslint --fix . && prettier --write ."
   },
   "directories": {
     "lib": "./lib"
@@ -14,26 +16,33 @@
   "files": [
     "lib"
   ],
-  "repository": "CroMarmot/hexo-bin-pagination",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CroMarmot/hexo-bin-pagination.git"
+  },
   "homepage": "https://github.com/CroMarmot/hexo-bin-pagination",
   "keywords": [
     "hexo",
     "pagination",
-    "util"
+    "util",
+    "binary"
   ],
   "author": "CroMarmot <yexiaorain@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^7.1.0",
-    "eslint-config-hexo": "^4.1.0",
-    "hexo": "^5.4.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "hexo": "^7.0.0",
     "mocha": "^8.1.1",
-    "nyc": "^15.0.0"
+    "nyc": "^15.0.0",
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "hexo": ">=5.0.0"
   },
   "engines": {
-    "node": ">=8.6.0",
-    "hexo": ">=3.9.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@cromarmot/pagination": "0.0.2",
